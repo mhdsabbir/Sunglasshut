@@ -16,7 +16,7 @@ const ServiceDetails = () => {
     const [getDetails, setGetDetails] = useState({})
 
     useEffect( () => {
-        fetch('http://localhost:5000/products') 
+        fetch('https://immense-brushlands-13580.herokuapp.com/products') 
             .then(res => res.json())
             .then(data => setSingleDetails(data))
     }, []) 
@@ -35,7 +35,7 @@ const ServiceDetails = () => {
          const onSubmit = data => {
           //    data.status = 'Pending';
              data.getDetails= getDetails;
-          axios.post('http://localhost:5000/myorder', data)
+          axios.post('https://immense-brushlands-13580.herokuapp.com/myorder', data)
               .then(res => {
                   if(res.data.insertedId){
                       alert('Order Booking Confirm');

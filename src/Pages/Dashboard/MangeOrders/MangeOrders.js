@@ -4,7 +4,7 @@ const MangeOrders = () => {
   const [allOrders, setAllOrders] = useState([]);
   console.log(allOrders);
   useEffect(() => {
-    fetch("http://localhost:5000/orders")
+    fetch("https://immense-brushlands-13580.herokuapp.com/orders")
       .then((res) => res.json())
       .then((data) => setAllOrders(data));
   }, []);
@@ -12,7 +12,7 @@ const MangeOrders = () => {
   const handleDeleteOrder = (id) => {
     const procced = window.confirm("Are you sure you want to Remove Order");
     if (procced) {
-      const url = `http://localhost:5000/orders/${id}`;
+      const url = `https://immense-brushlands-13580.herokuapp.com/orders/${id}`;
       fetch(url, {
         method: "DELETE",
       })
