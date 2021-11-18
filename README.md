@@ -3,10 +3,10 @@
 
 This project was Sunglass [ SunglassHub ] https://sunglasshut-b8ab4.web.app/).
 
-This Project Live Server Link [ Hotel Grand Park ] https://immense-brushlands-13580.herokuapp.com/
+This Project Live Server Link https://immense-brushlands-13580.herokuapp.com/
 
 ## Purpose Of My Website
 
-* This is a Sunglass micro nitch Website.
+* This is a Sunglass micro niche Website.
 * Our Services are very high comfortable all categories people.
 * Our Sunglass are an International Quality.
