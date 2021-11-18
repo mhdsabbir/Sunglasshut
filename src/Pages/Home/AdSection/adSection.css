@@ -1,0 +1,15 @@
+.adsec {
+  width: 100%;
+  height: 100%;
+  /* position: absolute; */
+  /* overflow: hidden; */
+}
+.ad {
+  color: cyan;
+  position: relative;
+  top: -243px;
+  right: 232px;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 44px;
+}

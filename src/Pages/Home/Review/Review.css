@@ -1,0 +1,15 @@
+.review{
+    padding:70px 0;
+}
+.review h2{
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+.single-review{
+     margin-bottom: 20px;
+    padding: 20px;
+    
+}
+.single-review p{
+    margin-top: 20px;
+}
